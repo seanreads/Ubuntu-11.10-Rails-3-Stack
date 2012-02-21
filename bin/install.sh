@@ -8,6 +8,12 @@ if [ -z $1 ] || [ ! -r $1 ]; then
    exit
 fi 
 
+export GEM_PATH=/var/lib/gems/1.9.1
+export GEM_HOME=$GEM_PATH
+if [ ! -d $GEM_PATH ]; then
+   mkdir -p $GEM_PATH
+fi
+
 apt-get -y update
 apt-get -y upgrade
 cat $1 | xargs apt-get -y install
