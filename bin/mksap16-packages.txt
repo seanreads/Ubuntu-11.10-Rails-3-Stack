@@ -1,0 +1,17 @@
+apache2
+libapache2-mod-passenger
+ruby1.9.1-full
+rubygems
+build-essential
+libfcgi-ruby1.9.1
+git-core
+libxml2-dev
+libxslt1-dev
+sqlite3
+libsqlite3-dev
+nodejs
+mysql-server
+mysql-client
+libmysql-ruby
+libmysqlclient-dev
+
