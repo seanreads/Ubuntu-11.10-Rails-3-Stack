@@ -1,5 +1,4 @@
--How to deal with ssh keys? Generate first and copy to GitHub etc? Make that part of the image prior to provisioning?
--clone mksap
+-write deployment script
 -run tests
 -configure mod_rails
 -test access via mod_rails

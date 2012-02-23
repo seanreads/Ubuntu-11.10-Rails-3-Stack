@@ -1,7 +1,7 @@
 To install on Ubuntu 11.10:
 
-$ sudo ./bin/install.sh mksap16-packages.txt
+$ sudo ./bin/install.sh packages.txt
 
 To generate updated package list:
 
-$ dpkg --get-selections > mksap16-machine-packages.txt
+$ dpkg --get-selections > machine-packages.txt
