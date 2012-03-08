@@ -24,3 +24,4 @@ update_rubygems
 gem install rake --no-ri --no-rdoc
 gem install bundler --no-ri --no-rdoc
 gem install sinatra --no-ri --no-rdoc
+gem install passenger --no-ri --no-rdoc
